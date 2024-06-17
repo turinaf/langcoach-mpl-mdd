@@ -66,14 +66,3 @@ By default, this command will write predictions of L2-ARCTIC test set into a jso
 This code is adapted from:
 https://github.com/Mu-Y/mpl-mdd
 
-## Citation
-```
-@inproceedings{yang22IS_Improving,
-  author={Mu Yang and Kevin Hirschi and Stephen Daniel Looney and Okim Kang and John H.L. Hansen},
-  title={{Improving Mispronunciation Detection with Wav2vec2-based Momentum Pseudo-Labeling for Accentedness and Intelligibility Assessment}},
-  year=2022,
-  booktitle={Proc. Interspeech 2022},
-  pages={4481--4485},
-  doi={10.21437/Interspeech.2022-11039}
-}
-```
