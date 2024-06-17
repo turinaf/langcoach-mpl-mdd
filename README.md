@@ -54,7 +54,7 @@ python train_mpl.py hparams/train_mpl.yaml
 ```
 python evaluate.py hparams/evaluate.yaml
 ```
-This will print PER and MDD F1, and write the PER and MDD details files. Note that the F1 printed here is from a MDD evaluator that is quite different from the one we used in the paper. The one used in the paper follows the prior work here: https://github.com/cageyoko/CTC-Attention-Mispronunciation. You need to convert the predictions into the acceptable format of that evaluator, which should be very straightforward.
+This will print PER and MDD F1, and write the PER and MDD details files.
 
 ## Inference with the trained model
 ```
