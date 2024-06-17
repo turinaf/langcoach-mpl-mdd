@@ -567,7 +567,7 @@ def dataio_prep(hparams):
         # sig = torch.Tensor(librosa.core.load(wav, hparams["sample_rate"])[0])
         # Use wav2vec processor to do normalization
         sig = hparams["wav2vec2"].feature_extractor(
-            librosa.core.load(wav, hparams["sample_rate"])[0],
+            librosa.core.load(path=wav, sr=hparams["sample_rate"])[0],
             sampling_rate=hparams["sample_rate"],
         ).input_values[0]
         sig = torch.Tensor(sig)
