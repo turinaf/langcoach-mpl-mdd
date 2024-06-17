@@ -1,6 +1,6 @@
-# mpl-mdd
+# langcoach-mpl-mdd
 
-Code for our paper "[Improving Mispronunciation Detection with Wav2vec2-based Momentum Pseudo-Labeling for Accentedness and Intelligibility Assessment](https://arxiv.org/abs/2203.15937)". An audio demo is available [here](https://mu-y.github.io/speech_samples/mdd_IS22/). 
+### A project for Deep Learning course, this open source repo is used for training the model forked from [this repo](https://github.com/Mu-Y/mpl-mdd)
 
 This repo contains code for fine-tuning a wav2vec2-based MDD model with momentum pseudo-labeling (MPL). The implementation is based on [SpeechBrain](https://github.com/speechbrain/speechbrain).
 
@@ -63,9 +63,8 @@ python transcribe.py hparams/transcribe.yaml
 By default, this command will write predictions of L2-ARCTIC test set into a json file. You can change the save path in `hparams/transcribe.yaml`.
 
 ## Acknowledgements
-The code is adapted from several SpeechBrain recipes:
-https://github.com/speechbrain/speechbrain/tree/develop/recipes/TIMIT/ASR/seq2seq
-https://github.com/speechbrain/speechbrain/tree/develop/recipes/LibriSpeech/ASR/transformer
+This code is adapted from:
+https://github.com/Mu-Y/mpl-mdd
 
 ## Citation
 ```
